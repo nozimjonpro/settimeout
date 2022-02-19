@@ -1,0 +1,72 @@
+.desert {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: auto;
+  background-image: url(/img/saxara.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.desert__camel--female {
+   position: absolute;
+   margin-top: 580px;
+   right: 0;
+ }
+
+.desert__camel {
+  position: absolute;
+  margin-top: 600px;
+}
+
+.desert__lake {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: rotateX(60deg);
+}
+
+.desert__hunter--first{
+  position: absolute;
+  margin-top: 610px;
+  left: -50px;
+}
+
+.desert__car--first{
+  position: absolute;
+  margin-top: 610px;
+  transform: rotateY(180deg);
+  left: -100px;
+}
+
+.desert__hunter--second{
+  position: absolute;
+  margin-top: 640px;
+  right: 0;
+  transform: rotateY(180deg);
+}
+
+.desert__car--second{
+  position: absolute;
+  margin-top: 640px;
+  right: 0;
+}
+
+.desert__heading{
+  position: absolute;
+  right: 50%;
+  top: 30%;
+  display: none;
+  width: 500px;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  color: rgb(241, 11, 11);
+  transform: translateX(50%);
+}
+
+
+
+
